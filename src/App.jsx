@@ -25,6 +25,10 @@ const Content = (props) => {
       <Part name={part3.name} duration={part3.duration} />
     </>
   );
+  
+
+  
+
 };
 
 const Footer = () => {
