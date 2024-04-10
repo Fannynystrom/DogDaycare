@@ -1,0 +1,226 @@
+
+
+
+nav.staffNavbar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav.staffNavbar ul {
+  list-style-type: none; /* Tar bort punkter från listan */
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+text-decoration: none;
+color: black;
+
+}
+
+nav.staffNavbar ul a {
+  margin-right: 20px; /* Lite avstånd mellan länkarna */
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border: 2px solid black;
+  border-style: double;
+  padding: 5px;
+
+
+
+}
+
+/* sökning av hundprofiler */
+.sökfält {
+  height: 30px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.search-button {
+  margin-left: 5px;
+  height: 30px;
+}
+
+/* container för hundprofiler, dogsToday och createdog */
+.Allcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* container för skapa profil och dogsToday */
+.side {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* container för och dogsToday */
+.dogs-in-today {
+  border: 4px solid black;
+  border-style: double;
+  width: 400px;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+
+/* listan för namnen för hundar inne idag */
+.dogs-in-today .dog-list {
+  margin-top: 10px; 
+  display: flex;
+  flex-direction: column;
+}
+
+/* CSS för att visa de markerade namnen direkt under rubriken */
+.dogs-in-today .dogsToday {
+  margin-bottom: 5px; /* Justera efter behov */
+}
+
+/* checkboxen */
+.dogs-in-today input[type="checkbox"] {
+  margin-right: 5px; /* Justera efter behov */
+}
+
+.dogs-in-today .date {
+  font-size: 17px; 
+}  
+
+/* create dog */
+.form-container {
+  width: 400px;
+  border: 4px solid black;
+  border-style: double;
+padding: 10px ;
+  margin: auto;
+align-items: center;
+}
+
+.form-container h2 {
+  display: flex;
+justify-content: center;
+
+}
+
+/* Stilregler för input-fält i create-dog */
+.input-field {
+  margin-bottom: 1rem;
+  width: 90%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+align-items: center;
+}
+
+/* Skapa profil-knapp i create-dog */
+.submit-button {
+  display: flex;
+align-items: center;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+
+/* container för hundprofiler */
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Två kolumner */
+  grid-template-rows: repeat(1, auto); /* En rad */
+  grid-gap: 20px; /* Avstånd mellan profilerna */
+}
+/* varje enskild profil */
+.profile {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 320px;
+  border: 4px solid black;
+  border-style:double;
+  padding: 2px 10px 2px 10px;
+  background-color: white;
+
+}
+
+.profile-details {
+  font-weight: normal; /* Återställ normal textvikt för detaljerna */
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+/* detail för hundprofiler (visa hundprofiler) */
+.detail {
+  margin: 5px 0;
+}
+
+/* knapp-container för profilen */
+.buttons-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row; /* Ändra till rad-layout för att placera knapparna bredvid varandra */
+}
+/* varje knapp i profil */
+.ProfilKnapp {
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.ProfilKnapp:hover {
+  background-color: grey;
+}
+
+.hundrubrik {
+  display: flex;
+  justify-content: center;
+}
+/* Hundrubrik fetad stil */
+.bold {
+  font-weight: bold; 
+}
+
+
+
+
+
+
+
+/* select[multiple] option:checked {
+  background-color: lightblue;
+} */
+
+/* 
+.dogs-in-today {
+  margin-top: 20px; /* Justera toppmarginalen efter behov */
+  /* width: 250px;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.dog-in-today {
+  margin-bottom: 10px; /* Justera mellanrummet mellan varje hund */
+/* } */
+
+/* .dog-in-today label {
+  margin-left: 5px; 
+} */
+
+
+
+
+
+
+ 
